@@ -1,13 +1,14 @@
-<?php
-/**
- * File: index.php
- * PHP version 7.4
- *
- * @category themes
- * @package  alangustavo_portifolio
- * @author   Author <ala.gustavo@gmail.com>
- * @license  https://opensource.org/licenses/GPL-3.0
- * @link     http://alangustavo.ga/
- */
-
-// Insira se código aqui.
+<?php get_header(); ?>
+<div class="content-area">
+    <h1>Ola</h1>
+    <main>
+        <section class="slide"></section>
+        <section class="services"></section>
+        <section class="midle-area">
+            <aside class="sidebar"></aside>
+            <div class="news"></div>
+        </section>
+        <section class="map"></section>
+    </main>
+</div>
+<?php get_footer(); ?>
